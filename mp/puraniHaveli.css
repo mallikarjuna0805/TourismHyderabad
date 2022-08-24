@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*for background*/
+    .header
+    {
+        min-height: 130vh;
+        width:100%;
+        background-image:linear-gradient(#fefbd8, #618685);
+        background-position:center;
+        background-size: 100%;
+        position:relative;
+    }
+    .text-box{
+        width: 90%;
+        color: rgb(22, 22, 22);
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    h1{
+        text-align: center;
+    }
+    /*title height */
+    .text-box h1{
+        font-size: 70px;
+    }
+    /*for paragraph*/
+    p1{
+        position:relative;
+        top: 50px;
+        margin: 20px 0 40px;
+        font-size: 20px;
+        width: 100%;
+        color: rgb(84, 85, 83);
+        text-align: justify;
+    }
+    img{
+    height: 480px;
+    width: 45%;
+    display: flex;
+    border-radius: 10%;
+    float:right;
+    position: relative;
+    top: 360px;
+    right: 10px;
+    }
+    img1{
+        height: 500px;
+        width: 30%;
+        display: flex;
+        border-radius: 10%;
+        float:right;
+        position: relative;
+        top: 350px;
+        right: 100px;
+    }
+
+    .text-box1{
+        width: 90%;
+        color: rgb(22, 22, 22);
+        position: absolute;
+        top: 89%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    h2{
+        color: rgba(0, 0, 0, 0.709);
+        font-size: 30px;
+    }
+    h3{
+        color: rgba(0, 0, 0, 0.627);
+        font-size: 25px;
+        position: relative;
+        left: 25px;
+    } 
+    p2{
+        position:relative;
+        top: -80px;
+        margin: 20px 0 40px;
+        font-size: 20px;
+        width: 100%;
+        color: rgb(84, 85, 83);
+        text-align: justify;
+    }
+    .text-box2{
+        width: 90%;
+        color: rgb(22, 22, 22);
+        position: absolute;
+        top: 91%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    p3{
+        position:relative;
+        top: 85%;
+        font-size: 20px;
+        width: 100%;
+        color: #0000EE;
+        text-align: justify;
+    }
+    h4{
+        color: rgba(0, 0, 0, 0.627);
+        font-size: 20px;
+    }
+    b{
+        color: rgba(0, 0, 0, 0.627);
+        font-size: 20px;
+    }

@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*for background*/
+    .header
+    {
+        min-height: 100vh;
+        width:100%;
+        background-image:linear-gradient(rgba(110, 128, 201, 0.7), rgba(109, 196, 197, 0.7)), url(file:///C:/Users/lenovo/Desktop/mp/1.jpeg);
+        background-position:center;
+        background-size:cover;
+        position:relative;
+    }
+/*for options(home...about...contact)*/
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+/*for adding effects to these options*/
+nav img{
+   width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(243, 230, 230);
+    text-decoration: none;
+    font-size: 23px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+/*for text*/
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+/*title height */
+.text-box h1{
+    font-size: 62px;
+}
+/*for paragraph*/
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+/*for subtext*/
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent; 
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+nav .fa{
+    display: none;
+}
+/*to set the display for smaller devices*/
+@media(max-width: 1000px)
+{
+   .text-box h1{
+       font-size: 20px;
+   }
+   .nav-links ul li{
+       display: block;
+   }
+   .nav-links{
+       position: absolute;
+       background: #f44336;
+       height: 100vh;
+       width: 200px;
+       top: 0;
+       right: -400px;
+       text-align: left;
+       z-index: 2;
+       transition: 1s;
+   }
+   nav .fa{
+      display: block;
+      color: #fff;
+      margin: 10px;
+      font-size: 22px;
+      cursor: pointer;
+   }
+   .nav-links ul{
+       padding: 30px;
+   }
+}
+/*-----Next page--------*/
+.places{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+h4{
+    font-size: 18px;
+    font-weight: 300;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-img-top{
+    height: 300px;
+    width: 70%;
+    border-radius: 10%;
+}
+.btn-primary{
+    display: inline-block;
+    text-decoration: none;
+    color: #777;
+    border: 1px solid #777;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent; 
+    position: relative;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    border: 1px solid #a9666176;
+    background: #965a5686;
+    transition: 1s;
+}
+.btn-primary.fa{
+    display: none;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+h4{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+.footer
+{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}

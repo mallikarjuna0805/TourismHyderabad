@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+    .header
+    {
+        min-height: 170vh;
+        width:100%;
+        background-image:linear-gradient(rgba(110, 128, 201, 0.7), rgba(109, 196, 197, 0.7)), url(file:///C:/Users/lenovo/Desktop/mp/QutubShahiTomb_p.jpg);
+        background-position:center;
+        background-size:cover;
+        position:relative;
+    }
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    text-align: center;
+}
+/*title height */
+.text-box h1{
+    font-size: 70px;
+}
+p1{
+    position:relative;
+    top: 50px;
+    margin: 20px 0 40px;
+    font-size: 20px;
+    width: 100%;
+    color: #fefbd8;
+    text-align: justify;
+}
